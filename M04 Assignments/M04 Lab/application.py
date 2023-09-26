@@ -45,11 +45,3 @@ def add_book():
     db.session.commit()
     return {'id': book.id}
 
-@app.route('/books/<id>' methods=['DELETE'])
-def delete_book():
-    book = Book.query.get(id)
-    if book is None:
-        return {"error": "not found"}
-    db.session.delete(book)
-    db.session.commit
-    return {"message": "byebye book!"}
