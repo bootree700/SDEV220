@@ -1,0 +1,11 @@
+
+Step 1: Create a New URL
+
+Step 2: Create a View
+	A view is what the user sees. In Django it is controlled by python. It is middleware. The few is concerned with two main things:
+	- Passing or manipulating data from the DM to the HTML Webpage
+	- Pointing to the HTML page that will be loaded
+
+Step 3: Create HTML file and write HTML and CSS with integrated Python
+
+
